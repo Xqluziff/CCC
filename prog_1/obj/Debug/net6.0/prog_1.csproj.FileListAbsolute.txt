@@ -1,0 +1,15 @@
+C:\Users\xqluz\Desktop\C#\prog_1\bin\Debug\net6.0\prog_1.exe
+C:\Users\xqluz\Desktop\C#\prog_1\bin\Debug\net6.0\prog_1.deps.json
+C:\Users\xqluz\Desktop\C#\prog_1\bin\Debug\net6.0\prog_1.runtimeconfig.json
+C:\Users\xqluz\Desktop\C#\prog_1\bin\Debug\net6.0\prog_1.dll
+C:\Users\xqluz\Desktop\C#\prog_1\bin\Debug\net6.0\prog_1.pdb
+C:\Users\xqluz\Desktop\C#\prog_1\obj\Debug\net6.0\prog_1.csproj.AssemblyReference.cache
+C:\Users\xqluz\Desktop\C#\prog_1\obj\Debug\net6.0\prog_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xqluz\Desktop\C#\prog_1\obj\Debug\net6.0\prog_1.AssemblyInfoInputs.cache
+C:\Users\xqluz\Desktop\C#\prog_1\obj\Debug\net6.0\prog_1.AssemblyInfo.cs
+C:\Users\xqluz\Desktop\C#\prog_1\obj\Debug\net6.0\prog_1.csproj.CoreCompileInputs.cache
+C:\Users\xqluz\Desktop\C#\prog_1\obj\Debug\net6.0\prog_1.dll
+C:\Users\xqluz\Desktop\C#\prog_1\obj\Debug\net6.0\refint\prog_1.dll
+C:\Users\xqluz\Desktop\C#\prog_1\obj\Debug\net6.0\prog_1.pdb
+C:\Users\xqluz\Desktop\C#\prog_1\obj\Debug\net6.0\prog_1.genruntimeconfig.cache
+C:\Users\xqluz\Desktop\C#\prog_1\obj\Debug\net6.0\ref\prog_1.dll
