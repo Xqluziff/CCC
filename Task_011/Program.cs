@@ -17,7 +17,6 @@ bool Multiplicity(int num1, int num2)
     return num1 % num2 == 0;
 }
 
-
 if(Multiplicity(num1,num2)) System.Console.WriteLine("Число кратно");
 else System.Console.WriteLine($"Число не кратно, {num1 % num2}");
 

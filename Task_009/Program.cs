@@ -9,24 +9,11 @@ int num = new Random().Next(10,100);
 
 System.Console.WriteLine($"Случайное число из отрезка 10-99 => {num}");
 
-/*int firstDigit = num / 10;
-int secondDigit = num % 10;
-
-/*if(firstDigit > secondDigit) System.Console.WriteLine($"Наибольшая цифра => {firstDigit}");
-
-else System.Console.WriteLine($"Наибольшая цифра => {secondDigit}");
-
-
-int res = firstDigit > secondDigit ? firstDigit : secondDigit;*/
-
-
 int MaxDigit(int num)
 {
     int firstDigit = num / 10;
     int secondDigit = num % 10;
     int res = firstDigit > secondDigit ? firstDigit : secondDigit;
-    
     return res;
 }
-
 System.Console.WriteLine($"Наибольшая цифра => {MaxDigit(num)}");
