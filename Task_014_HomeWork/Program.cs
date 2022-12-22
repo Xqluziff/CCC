@@ -31,4 +31,4 @@ int ThirdDigit(int number)
         number = number / 10;
     }
     return number % 10;
-}
+}   
