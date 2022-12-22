@@ -13,21 +13,20 @@
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 
+
 if(number > 99)
+{
+    int res = ThirdDigit(number);
+    Console.WriteLine(res);
+
+}
+else Console.WriteLine("3 цифры нет");
+
+int ThirdDigit(int number)
 {
     while(number > 999)
     {
         number = number / 10;
     }
-
-    int res = ThirdDigit(number);
-    Console.WriteLine(res);
-}
-else Console.WriteLine("3 цифры нет");
-
-
-int ThirdDigit(int number)
-{
     return number  % 10;
 }
-

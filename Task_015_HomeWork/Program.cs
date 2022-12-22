@@ -9,6 +9,7 @@
 
 Console.WriteLine("Введите число");
 int  numberDay= Convert.ToInt32(Console.ReadLine());
+ 
 
 if (numberDay >= 1 && numberDay <= 7)
 {
