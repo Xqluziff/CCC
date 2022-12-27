@@ -19,7 +19,7 @@ System.Console.WriteLine(Math.Round(res,2,MidpointRounding.ToZero) );
 double Hypotenuse(double xc1,double yc1,double xc2,double yc2 )
 {
 
-double pointX = Math.Pow(xc2 - xc1,2);
+double pointX = Math.Pow(xc2 - xc1,2); 
 double pointY = Math.Pow(yc2 - yc1,2);
 double res = Math.Sqrt(pointX + pointY);
 
