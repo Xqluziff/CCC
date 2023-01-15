@@ -12,6 +12,7 @@
 System.Console.WriteLine("Enter digit");
 double number = Convert.ToDouble(Console.ReadLine());
 
+
 if (number > 0) TableSquer(number);
 else System.Console.WriteLine("Не корректые данные");
 
