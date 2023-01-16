@@ -12,12 +12,14 @@
 Console.WriteLine("Введите число А");
 int digit = Convert.ToInt16(Console.ReadLine());
 Console.WriteLine("Введите число В");
-int digree = Convert.ToInt16(Console.ReadLine());
+int degree = Convert.ToInt16(Console.ReadLine());
 
-Console.WriteLine(RaiseDegree(digit, digree));
+
+Console.WriteLine(RaiseDegree(digit, degree));
 
 int RaiseDegree(int num, int dgr)
 {
+    if (dgr < 0) dgr = -dgr;
     int result = 1;
     for (int i = 0; i < dgr; i++)
     {
