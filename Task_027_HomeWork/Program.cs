@@ -10,9 +10,9 @@
 */
 
 Console.WriteLine("Введите число А");
-int digit = Convert.ToInt16(Console.ReadLine());
+int digit = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число В");
-int degree = Convert.ToInt16(Console.ReadLine());
+int degree = Convert.ToInt32(Console.ReadLine());
 
 
 Console.WriteLine(RaiseDegree(digit, degree));

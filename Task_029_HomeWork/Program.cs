@@ -5,19 +5,20 @@
 */
 
 Console.WriteLine("Введите размер массива");
-int sizeMas = Convert.ToInt16(Console.ReadLine());
+int sizeMas = Convert.ToInt32(Console.ReadLine());
 
 if (sizeMas > 0)
 {
     int[] arrey = CreatMas(sizeMas);
     InitMas(arrey);
-    PrintMas(arrey);
+    PrintMas(arrey);  
+}
+else Console.WriteLine("Размер массива не может быть отрицательным или равный 0");
 
     int[] CreatMas(int size)
     {
         return new int[size];
     }
-
     void InitMas(int[] arr)
     {
         Random rnd = new Random();
@@ -38,8 +39,6 @@ if (sizeMas > 0)
         }
         Console.WriteLine("]");
     }
-}
-else Console.WriteLine("Размер массива не может быть отрицательным или равный 0");
 
 
 

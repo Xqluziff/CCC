@@ -9,7 +9,7 @@
 */
 
 Console.WriteLine("Введите число");
-int digit = Convert.ToInt16(Console.ReadLine());
+int digit = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(SumDigit(digit));
 
 int SumDigit(int num)
