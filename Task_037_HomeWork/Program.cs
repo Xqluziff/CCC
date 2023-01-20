@@ -22,7 +22,7 @@ double[] CreateInitArrey(int size, double min = 1, double max = 10)
 
     for (int i = 0; i < mas.Length; i++)
     {
-        mas[i] = Math.Round(rnd.NextDouble() * (max - min) + min, 2);
+        mas[i] = Math.Round(rnd.NextDouble() * (max - min) + min, 1);
 
     }
     return mas;
@@ -64,6 +64,6 @@ double MaxElem(double[] mas)
 
 double DifferenceMinMax(double min,double max)
 {
-   return Math.Round(max - min,2);
+   return Math.Round(max - min,1);
 
 }
