@@ -28,18 +28,18 @@ float GetY(float x, float x1, float y1)
     return y;
 }
 
-void PrintPoint(float ux,float uy)
+void PrintPoint(float ux, float uy)
 {
     Console.WriteLine($"Точка пресечения {ux};{uy}");
 }
 
 if (k1 == k2 && b1 == b2) Console.WriteLine("Прямые совпадают");
-else if (k1==k2) Console.WriteLine("Прямые параллельны");
+else if (k1 == k2) Console.WriteLine("Прямые параллельны");
 else
 {
-    float x = GetX(b1,k1,b2,k2);
-    float y = GetY(x,b1,k1);
-    PrintPoint(x,y);
+    float x = GetX(b1, k1, b2, k2);
+    float y = GetY(x, b1, k1);
+    PrintPoint(x, y);
 }
 
 
